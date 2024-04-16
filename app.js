@@ -75,6 +75,16 @@ ima.innerHTML="<img src='acua.jpeg' height=200px width=200px>"
                                               spinner.innerHTML=""
                                              },1000);
   
+    ima.style.transform=" rotateY(-180deg)";
+  ima.style.transition="all 0.5s linear";
+  ima.style.transitionStyle="preserve-3d";
+  ima.style.backfaceVisibility
+
+  setTimeout(()=>{
+    ima.style.transform=" rotateY(0deg)";
+    ima.style.transition="all 0.5s linear";
+ima.src=ima
+  },200)
   
   
 }
