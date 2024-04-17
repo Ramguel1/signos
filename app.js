@@ -30,9 +30,6 @@ const dibujar=()=>{
       
     },1000);
 
-  ima.innerHTML="<img src='loading-4802_256.gif' height=200px width=200px>"
-  setTimeout(()=>{
-
   if(d>=21 && mess=="Enero" || d<=19 && mess=="Febrero"){
 ima.innerHTML="<img src='acua.jpeg' height=200px width=200px>"
   }
@@ -72,8 +69,7 @@ ima.innerHTML="<img src='acua.jpeg' height=200px width=200px>"
                                               else{
                                                 ima.innerHTML="<img src=''>"
                                               }
-                                              spinner.innerHTML=""
-                                             },1000);
+                                              
   
     ima.style.transform=" rotateY(-180deg)";
   ima.style.transition="all 0.5s linear";
